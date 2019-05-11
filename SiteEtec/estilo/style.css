@@ -1,4 +1,116 @@
-h1, h2, h3, h4{
-    background-color: rgba(15, 19, 238, 0.521)
+*{
+    padding:0;
+    margin:0;
 
+}
+
+.listaNaoOrdenada ul{
+    list-style: nome;
+    text-align: center
+}
+
+.listaNaoOrdenada ul li{
+    display:inline;
+    text-align:center;
+}
+
+.estiloLinks ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.estiloLinks ul li a:hover{
+    color:rgb(255, 145, 0);
+    transition-delay:'0.1s'
+}
+
+.body{
+    font-family:"Comic Sans MS", cursive, sans-serif;
+
+}
+
+.linha{
+    color: #02000011;
+    background-color: #00000017;
+    height: 5px;   
+    border:none
+}
+
+.fonte{
+    font-size:14px;
+
+}
+
+.fonte h1{
+    font-size:30px;
+
+}
+
+
+
+
+/* FIM DAS CLASSES */
+#cabecalho1{
+    background-color:#f4f4f4e7;
+    width: 0 auto;
+    height:40px;
+
+}
+
+#cabecalho1 ul{
+    list-style: none;
+    text-align: center;
+}
+#cabecalho1 ul li{
+    display:inline;
+    margin:0px 30px 0px 30px;
+
+}
+
+#cabecalho2{
+    background-color:#0b6d8d;
+    width: 0 auto;
+    height:40px;
+    color:#ffffff;
+
+}
+
+#cabecalho2 ul{
+    list-style: none;
+    text-align: center;
+}
+
+#cabecalho2 ul li{
+    display:inline;
+    margin:0px 30px 0px 30px;
+
+}
+
+#links{
+    background-color:#921209;
+
+}
+
+#corpo_sobre{
+    margin:0 25% 0 11% ;
+    width:60%;
+    height: 900px;
+
+}
+
+#corpo_etecia{
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+#estilo_link_etecia ul li a{
+    
+        text-decoration: none;
+        color: black;
+}
+
+#estilo_link_etecia ul li a:hover{
+        color:rgb(255, 145, 0);
+        transition-delay:'0.1s'
 }
