@@ -24,9 +24,14 @@
     transition-delay:'0.1s'
 }
 
-.body{
-    font-family:"Comic Sans MS", cursive, sans-serif;
+.estiloLinks_preto ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
 
+.estiloLinks_preto ul li a:hover{
+    color:rgb(11, 14, 236);
+    transition-delay:'0.1s'
 }
 
 .linha{
@@ -36,17 +41,30 @@
     border:none
 }
 
-.fonte{
-    font-size:14px;
+.listaNaoOrdenadaE ul{
+    text-align: left;
+    list-style: none;
+}
+
+.listaNaoOrdenadaE ul li{
+    display: block;
+    text-align: left
 
 }
 
-.fonte h1{
-    font-size:30px;
+.componentes ul{
+    text-align: center;
+    margin-block: 10px;
+    margin-left: 10px;
 
 }
 
+.componentes ul li{
+    margin-inline: 5px;
+    letter-spacing: 0.5px;
+    line-height: 17px;
 
+}
 
 
 /* FIM DAS CLASSES */
@@ -114,3 +132,4 @@
         color:rgb(255, 145, 0);
         transition-delay:'0.1s'
 }
+
