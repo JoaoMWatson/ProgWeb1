@@ -66,6 +66,18 @@
 
 }
 
+.fonte h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#005b6d;
+    font-size: 2.5em;
+}
+.fonte{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:#666;
+    font-size:0.81em;
+
+}
+
 
 /* FIM DAS CLASSES */
 #cabecalho1{
@@ -87,7 +99,7 @@
 
 #cabecalho2{
     background-color:#0b6d8d;
-    width: 0 auto;
+    width: auto;
     height:40px;
     color:#ffffff;
 
@@ -111,8 +123,8 @@
 
 #corpo_sobre{
     margin:0 25% 0 11% ;
-    width:60%;
-    height: 900px;
+    width:50%;
+    height:900px;
 
 }
 
@@ -133,3 +145,7 @@
         transition-delay:'0.1s'
 }
 
+#imglogo{
+    margin-top: 35px;
+
+}
