@@ -120,6 +120,9 @@
 
 #links{
     background-color:#921209;
+    padding-bottom:20px;
+    padding-top: 20px;
+    height:10%;
 
 }
 
@@ -128,7 +131,7 @@
     width:47%;
     height:900px;
     text-align: justify;
-
+    padding-top:50px;
 }
 
 #corpo_etecia{
@@ -154,7 +157,10 @@
 }
 #imagensSobre{
     width:0 auto;
-    background-color:#ce0f01d3;
+    background-color:#a31107;
+    padding-bottom:20px ;
+    padding-top:20px;
+    
 }
 
 #imagensSobre img{
