@@ -80,41 +80,36 @@
 
 }
 
+.container{
+    width: 80%;
+    margin:auto;
+
+}
+.cabecalho2 {
+    background:#0b6d8d url("../img/menubg-blue.png") repeat-x; 
+    width: auto;
+    height:40px;
+    color:#ffffff; 
+
+}
+
+.cabecalho2 ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.cabecalho2 ul li {
+    display:inline-block;
+    padding: 10px;
+    border-left: 1px solid #258FC1;
+}
+
 
 /* FIM DAS CLASSES */
 #cabecalho1{
     background-color:#f4f4f4e7;
     width: 0 auto;
     height:40px;
-
-}
-
-#cabecalho1 ul{
-    list-style: none;
-    text-align: center;
-}
-#cabecalho1 ul li{
-    display:inline;
-    margin:0px 30px 0px 30px;
-
-}
-
-#cabecalho2{
-    background-color:#0b6d8d;
-    width: auto;
-    height:40px;
-    color:#ffffff;
-
-}
-
-#cabecalho2 ul{
-    list-style: none;
-    text-align: center;
-}
-
-#cabecalho2 ul li{
-    display:inline;
-    margin:0px 30px 0px 30px;
 
 }
 
@@ -134,21 +129,9 @@
     padding-top:50px;
 }
 
-#corpo_etecia{
-    width: 80%;
-    margin: 0 auto;
-
-}
-
 #estilo_link_etecia ul li a{
-    
         text-decoration: none;
-        color: black;
-}
-
-#estilo_link_etecia ul li a:hover{
-        color:rgb(255, 145, 0);
-        transition-delay:'0.1s'
+        color:white;
 }
 
 #imglogo{
@@ -171,4 +154,9 @@
 
 #imagemCPS img{
     width:100%;
+}
+
+#menu li:hover{
+    background-color: #06506c;
+
 }
