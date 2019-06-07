@@ -1,96 +1,96 @@
-*{
-    padding:0;
-    margin:0;
-
+* {
+    padding: 0;
+    margin: 0;
 }
 
-.listaNaoOrdenada ul{
+body {
+    font-family: Arial, 'Liberation Sans', FreeSans, sans-serif;
+}
+
+.listaNaoOrdenada ul {
     list-style: nome;
     text-align: center
 }
 
-.listaNaoOrdenada ul li{
-    display:inline;
-    text-align:center;
+.listaNaoOrdenada ul li {
+    display: inline;
+    text-align: center;
 }
 
-.estiloLinks ul li a{
+.estiloLinks ul li a {
     text-decoration: none;
     color: white;
 }
 
-.estiloLinks ul li a:hover{
-    color:rgb(255, 145, 0);
-    transition-delay:'0.1s'
+.estiloLinks ul li a:hover {
+    color: rgb(255, 145, 0);
+    transition-delay: '0.1s'
 }
 
-.estiloLinks_preto ul li a{
+.estiloLinks_preto ul li a {
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
 
-.estiloLinks_preto ul li a:hover{
-    color:rgb(11, 14, 236);
-    transition-delay:'0.1s'
+.estiloLinks_preto ul li a:hover {
+    color: rgb(11, 14, 236);
+    transition-delay: '0.1s'
 }
 
-.linha{
+.linha {
     color: #02000011;
     background-color: #00000017;
-    height: 5px;   
-    border:none
+    height: 5px;
+    border: none;
+    width: auto;
 }
 
-.listaNaoOrdenadaE ul{
+.listaNaoOrdenadaE ul {
     text-align: left;
     list-style: none;
 }
 
-.listaNaoOrdenadaE ul li{
+.listaNaoOrdenadaE ul li {
     display: block;
     text-align: left
-
 }
 
-.componentes ul{
+.componentes ul {
     text-align: center;
     margin-block: 10px;
     margin-left: 10px;
-
 }
 
-.componentes ul li{
+.componentes ul li {
     margin-inline: 5px;
     letter-spacing: 0.5px;
     line-height: 17px;
-
 }
 
-.fonte h1{
+.fonte h1 {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color:#005b6d;
+    color: #005b6d;
     font-size: 2.5em;
-    margin-top:10px;
+    margin-top: 10px;
 }
-.fonte{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:#666;
-    font-size:0.81em;
+
+.fonte {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #666;
+    font-size: 0.81em;
     line-height: 20px;
-
 }
 
-.container{
+.container {
     width: 80%;
-    margin:auto;
-
+    margin-left: 20%
 }
-.cabecalho2 {
-    background:#0b6d8d url("../img/menubg-blue.png") repeat-x; 
-    width: auto;
-    height:40px;
-    color:#ffffff; 
 
+.cabecalho2 {
+    background: #0b6d8d url("../img/menubg-blue.png") repeat-x;
+    width: auto;
+    height: 40px;
+    color: #ffffff;
 }
 
 .cabecalho2 ul {
@@ -99,64 +99,70 @@
 }
 
 .cabecalho2 ul li {
-    display:inline-block;
+    display: inline-block;
     padding: 10px;
     border-left: 1px solid #258FC1;
 }
 
 
 /* FIM DAS CLASSES */
-#cabecalho1{
-    background-color:#f4f4f4e7;
+
+#cabecalho1 {
+    background-color: #f4f4f4e7;
     width: 0 auto;
-    height:40px;
-
+    height: 40px;
 }
 
-#links{
-    background-color:#921209;
-    padding-bottom:20px;
+#links {
+    background-color: #921209;
+    padding-bottom: 20px;
     padding-top: 20px;
-    height:10%;
-
+    height: 10%;
 }
 
-#corpo_sobre{
-    margin:0 25% 0 15% ;
-    width:47%;
-    height:900px;
+#corpo_sobre {
+    margin: 0 25% 0 15%;
+    width: 47%;
+    height: 900px;
     text-align: justify;
-    padding-top:50px;
+    padding-top: 50px;
 }
 
-#estilo_link_etecia ul li a{
-        text-decoration: none;
-        color:white;
+#estilo_link_etecia ul li a {
+    text-decoration: none;
+    color: white;
 }
 
-#imglogo{
+#imglogo {
     margin-top: 35px;
-
-}
-#imagensSobre{
-    width:0 auto;
-    background-color:#a31107;
-    padding-bottom:20px ;
-    padding-top:20px;
-    
 }
 
-#imagensSobre img{
+#imagensSobre {
+    width: 0 auto;
+    background-color: #a31107;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#imagensSobre img {
     width: 25%;
     height: 20%;
     margin-left: 15%;
 }
 
-#imagemCPS img{
-    width:100%;
+#imagemCPS img {
+    width: 100%;
 }
 
-#menu li:hover{
+#menu li:hover {
     background-color: #06506c;
+}
 
+#imgEtecia {
+    padding-bottom: 10%;
+    padding-top: 5%;
+}
+
+#imgEtecia img {
+    width: 75%;
 }
